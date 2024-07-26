@@ -1,4 +1,6 @@
-This is a collection of my own Python solutions to Project Euler problems: https://projecteuler.net/archives
+This is a collection of my own Python solutions to Project Euler problems: https://projecteuler.net/archive
+
+In some solutions, I add extra things, such as user input etc.
 
 **This is intended for future employers' evaluation of my coding and math skills ONLY**
 
