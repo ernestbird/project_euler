@@ -1,7 +1,4 @@
 
-import time
-
-start = time.time()
 
 def reverse_number(number: int):
     """
@@ -15,17 +12,11 @@ def reverse_number(number: int):
 
 def largest_palindrome_number (n, m):
     num_list = []
-    orig_m = m
-    
     for i in range (n, 0, -1):
         for k in range(m, 0, -1):
             sum = i * k
             if sum == reverse_number(sum):
                 num_list.append(sum) 
-            m = orig_m
     return max(num_list)
-
-end = time.time()
             
 print(largest_palindrome_number(999, 999))
-print(f"Execution time is {(end-start)*1000} ms")
