@@ -12,8 +12,8 @@ def reverse_number(number: int):
 
 def largest_palindrome_number (n, m):
     num_list = []
-    for i in range (n, 0, -1):
-        for k in range(m, 0, -1):
+    for i in range (n, 100, -1):
+        for k in range(m, 100, -1):
             sum = i * k
             if sum == reverse_number(sum):
                 num_list.append(sum) 
